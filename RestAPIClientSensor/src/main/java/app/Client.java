@@ -66,13 +66,15 @@ public class Client {
 	
 	
 	public static void main(String[] args) {
-//		final String sensorName = "SensorT1000";
-
+//		final String sensorName = "NewSensor123";
+		
+//		addSensor(sensorName);
+		
 		final List<Double> temps = DrawChart.getTempSensorFromServer();
 		
 //		getSensors();
 		
-//		addRandomValues(sensorName, 45.0);
+//		addRandomValues(sensorName, 21.6);
 		
 		DrawChart.drawTemp(temps);
 		
