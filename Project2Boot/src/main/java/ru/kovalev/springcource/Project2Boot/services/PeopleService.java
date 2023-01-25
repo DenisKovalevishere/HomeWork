@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Optional;
 
 import org.hibernate.Hibernate;
-import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -15,12 +15,12 @@ import ru.kovalev.springcource.Project2Boot.models.Person;
 import ru.kovalev.springcource.Project2Boot.repositories.PeopleRepository;
 
 @Service
-@Transactional(readOnly = true)
+@Transactional
 public class PeopleService {
 
 	private final PeopleRepository peopleRepository;
 
-	@Autowired
+
 	public PeopleService(PeopleRepository peopleRepository) {
 		this.peopleRepository = peopleRepository;
 	}

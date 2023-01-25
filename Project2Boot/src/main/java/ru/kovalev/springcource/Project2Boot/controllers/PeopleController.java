@@ -2,6 +2,8 @@ package ru.kovalev.springcource.Project2Boot.controllers;
 
 
 
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -14,7 +16,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import jakarta.validation.Valid;
+
 import ru.kovalev.springcource.Project2Boot.models.Person;
 import ru.kovalev.springcource.Project2Boot.services.PeopleService;
 import ru.kovalev.springcource.Project2Boot.util.PersonValidator;
