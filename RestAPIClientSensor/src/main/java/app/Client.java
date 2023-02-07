@@ -66,7 +66,7 @@ public class Client {
 	
 	
 	public static void main(String[] args) {
-//		final String sensorName = "NewSensor123";
+		final String sensorName = "NewSensor123";
 		
 //		addSensor(sensorName);
 		
@@ -74,7 +74,7 @@ public class Client {
 		
 //		getSensors();
 		
-//		addRandomValues(sensorName, 21.6);
+		addRandomValues(sensorName, 21.6);
 		
 		DrawChart.drawTemp(temps);
 		
